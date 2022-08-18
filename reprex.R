@@ -27,9 +27,13 @@ library(tidyverse)
 
 mtcars |> 
   ggplot(aes(x = mpg, y = cyl)) +
-  geom_point(aes(shape = 12), color = "purple")
+  geoom_point(aes(shape = 12), color = "purple")
 
 
 ## Reperex fixed 2
+library(tidyverse)
 
+mtcars |> 
+  ggplot(aes(x = mpg, y = cyl)) +
+  geom_point(shape = 12, color = "purple")
 
